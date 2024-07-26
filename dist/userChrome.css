@@ -1,0 +1,85 @@
+
+    html#main-window {
+        --urlbar-icon-border-radius: 1rem !important;
+    }
+
+    #urlbar-background {
+        border-radius: 10rem !important;
+        background-color: rgb(26, 26, 26) !important;
+    }
+
+    #urlbar[breakout][breakout-extend][breakout-extend-animate]>#urlbar-background {
+        border-radius: 2rem !important;
+    }
+
+    menupopup {
+        
+            --panel-background: rgba(5, 5, 5) !important;
+            --panel-border-color: rgb(15, 15, 15) !important;
+            --panel-color: rgb(255, 255, 255) !important;
+            border-radius: 24px !important;
+        
+    }
+
+    menuitem:hover {
+        
+            background-color: rgb(33, 33, 33) !important;
+        
+    }
+
+    menu:where([_moz-menuactive="true"]:not([disabled="true"])),
+    menuitem:where([_moz-menuactive="true"]:not([disabled="true"])) {
+        background-color: rgb(33, 33, 33) !important;
+        color: rgb(255, 0, 0) !important;
+    }
+
+    /* Change the background color of the app menu */
+    #appMenu-popup {
+        
+            --panel-background: rgba(5, 5, 5) !important;
+            --panel-border-color: rgb(15, 15, 15) !important;
+            --panel-color: rgb(255, 255, 255) !important;
+            border-radius: 24px !important;
+        
+    }
+
+    /* Change the background color of menu items on hover */
+    #appMenu-popup .subviewbutton:hover {
+        
+            background-color: rgb(33, 33, 33) !important;
+        
+    }
+
+    /* Change the background color of the Downloads panel */
+    #downloadsPanel {
+        
+            --panel-background: rgba(5, 5, 5) !important;
+            --panel-border-color: rgb(15, 15, 15) !important;
+            --panel-color: rgb(255, 255, 255) !important;
+            border-radius: 24px !important;
+        
+    }
+
+    /* Change the background color of download items on hover */
+    #downloadsPanel .downloadContainer:hover {
+        
+            background-color: rgb(33, 33, 33) !important;
+        
+    }
+
+    /* Change the background color of the Extensions panel */
+    #unified-extensions-panel {
+        
+            --panel-background: rgba(5, 5, 5) !important;
+            --panel-border-color: rgb(15, 15, 15) !important;
+            --panel-color: rgb(255, 255, 255) !important;
+            border-radius: 24px !important;
+        
+    }
+
+    /* Change the background color of extension items on hover */
+    #unified-extensions-panel .unified-extensions-item:hover {
+        
+            background-color: rgb(33, 33, 33) !important;
+        
+    }

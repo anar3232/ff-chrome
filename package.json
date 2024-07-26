@@ -1,0 +1,13 @@
+{
+    "name": "ff-chrome",
+    "version": "1.0.0",
+    "description": "A beatiful ff theme, ff redesigned && reimagined",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

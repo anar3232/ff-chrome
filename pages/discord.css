@@ -1,0 +1,30 @@
+@import "../colors.css";
+
+@-moz-document url-prefix("https://discord.com/"), url-prefix("http://discord.com/") {
+    :root {
+        --button-positive-background: var(--lumina-discord-accent-color) !important;
+        --button-positive-background-hover: var(--lumina-accent-color-tertiary) !important;
+    }
+
+    .circleIconButton_db6521 {
+        color: var(--lumina-discord-accent-color) !important;
+    }
+    .circleIconButton_db6521.selected_db6521 {
+        color: var(--lumina-accent-color-contrasting-color) !important;
+        background-color: var(--lumina-discord-accent-color) !important;
+    }
+
+    .icon_aef5fd {
+        color: var(--lumina-accent-color-contrasting-color) !important;
+        background-color: var(--lumina-discord-accent-color) !important;
+    }
+
+    .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c {
+        background-color: var(--lumina-discord-accent-color) !important;
+        color: var(--lumina-discord-accent-color-contrasting-color) !important;
+    }
+    .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c[aria-selected="true"] {
+        background-color: transparent !important;
+        color: var(--lumina-discord-accent-color) !important;
+    }
+}
